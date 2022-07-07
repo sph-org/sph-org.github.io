@@ -1,1 +1,793 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><link rel='stylesheet' id='a16z-global-css' href='https://sph-org.github.io/css/global.de100cb29e460963dad6.min.css' type='text/css' media='all' /><noscript><div itemscope itemtype="http://schema.org/ImageObject">  <img src=​"https://mediatop.github.io/uploads/220px-Bacteriophage_structure.png" itemprop="contentUrl" /> <span itemprop="description">Инфекционный агент, размножающийся в клетках (Infectious agent that replicates in cells)</span> </div>
+</noscript>
+<link rel="icon" href="https://raw.githubusercontent.com/sph-org/sph-org.github.io/main/favicon.png" type="image/x-icon">
 
+
+
+
+<link rel='stylesheet' id='a16z-global-css' href='https://sph-org.github.io/css/global.de100cb29e460963dad6.min.css?ver=1.03' type='text/css' media='all' />
+
+
+
+
+
+
+<link rel='stylesheet' id='a16z-archive-css-css' href='https://a16z.com/wp-content/themes/a16z-2015/client/build/css/archive.963737568e3b83956a5b.min.css?ver=1.03' type='text/css' media='all' />
+
+
+
+
+
+				<link rel="stylesheet" href="https://sph-org.github.io/css/media_skins_minerva_mainMenu_icons_styles_skins_minerva_mainPage_styles_only_styles_skin_minerva_css_r5ufvvd7iwyca37h30f5xu_php.css">
+				<link rel="stylesheet" href="https://sph-org.github.io/css/mages_skins_minerva_icons_wikimedia_skins_minerva_mainMenu_icons_styles_only_styles_skin_minerva_css_mipt3ifjdxbd3sckmnrknj_php.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="google-site-verification" content="P0GXb2pbBqt8KUgYlOlJ1WQIEIKCcv82t4HIeTqinPk" />
+<link rel="stylesheet" href="https://use.typekit.net/kie2zie.css">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://a16z.com/xmlrpc.php">
+<title>Вирусы - Таксономия | Сфера</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- This site is optimized with the Yoast SEO plugin v12.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="" />
+<link rel="next" href="" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Сфера" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="Сфера" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="- Сфера" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://a16z.com/#website","url":"https://a16z.com/","name":"Сфера","potentialAction":{"@type":"SearchAction","target":"https://a16z.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ProfilePage","@id":"https://a16z.com/author/ben-horowitz/#webpage","url":"https://a16z.com/author/ben-horowitz/","inLanguage":"en-US","name":"- Сфера","isPartOf":{"@id":"https://a16z.com/#website"}},{"@type":["Person"],"@id":"https://a16z.com/#/schema/person/2022059d3b1b2ba8b3464ff2cc2e4165","name":null,"image":{"@type":"ImageObject","@id":"https://a16z.com/#authorlogo","url":"https://a16z.com/wp-content/uploads/2022/01/Venture_Fund_Announcement_Facebook.jpg"},"sameAs":[],"mainEntityOfPage":{"@id":"https://a16z.com/author/ben-horowitz/#webpage"}}]}</script>
+<link rel='stylesheet' id='a16z-archive-css-css' href='https://a16z.com/wp-content/themes/a16z-2015/client/build/css/archive.963737568e3b83956a5b.min.css?ver=1.03' type='text/css' media='all' />
+<link rel='stylesheet' id='a16z-global-css' href='https://sph-org.github.io/css/global.de100cb29e460963dad6.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='a16z-global-css' href='https://a16z.com/wp-content/themes/a16z-2015/client/build/css/global.de100cb29e460963dad6.min.css?ver=1.03' type='text/css' media='all' />
+		
+
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//cdn.optimizely.com' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//munchkin.marketo.net' />
+<link rel='dns-prefetch' href='//info.a16z.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Сфера &raquo; Feed" href="https://a16z.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Сфера &raquo; Comments Feed" href="https://a16z.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Сфера &raquo; Posts by Ben Horowitz Feed" href="https://a16z.com/author/ben-horowitz/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/a16z.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/5.9.2/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='bcct_style-css'  href='https://a16z.com/wp-content/plugins/better-click-to-tweet/assets/css/styles.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-parsely-style-css'  href='https://a16z.com/wp-content/plugins/wp-parsely/wp-parsely.css?ver=1655148749' type='text/css' media='all' />
+<link rel='stylesheet' id='a16z-global-css'  href='https://a16z.com/wp-content/themes/a16z-2015/client/build/css/global.d8d111779cd7c34a05b5.min.css?ver=1.03' type='text/css' media='all' />
+<link rel='stylesheet' id='a16z-archive-css-css'  href='https://a16z.com/wp-content/themes/a16z-2015/client/build/css/archive.7f1710bdb5e1528129f3.min.css?ver=1.03' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://c0.wp.com/p/jetpack/8.6/css/jetpack.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://c0.wp.com/c/5.9.2/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.9.2/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://cdn.optimizely.com/js/15432930010.js?ver=1.01' id='optimizely-js'></script>
+<script type='text/javascript' src='//info.a16z.com/js/forms2/js/forms2.min.js?ver=1.0' id='marketo-newsletter-js'></script>
+<link rel="https://api.w.org/" href="https://a16z.com/wp-json/" /><link rel="alternate" type="application/json" href="https://a16z.com/wp-json/wp/v2/users/11308" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://a16z.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://a16z.com/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+<!-- BEGIN wp-parsely Plugin Version 1.14 -->
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.14"/>
+			<script type="application/ld+json">
+		{"@context":"http:\/\/schema.org","@type":"WebPage","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/a16z.com\/2022\/01\/07\/9b-to-build-the-future\/"},"headline":"Author -","url":"https:\/\/a16z.com\/author\/ben-horowitz\/","thumbnailUrl":"https:\/\/a16z.com\/wp-content\/uploads\/2022\/01\/Venture_Fund_Announcement_Facebook-150x150.jpg","image":{"@type":"ImageObject","url":"https:\/\/a16z.com\/wp-content\/uploads\/2022\/01\/Venture_Fund_Announcement_Facebook-150x150.jpg"},"dateCreated":"2022-01-07T14:02:07Z","datePublished":"2022-01-07T14:02:07Z","dateModified":"2022-01-07T14:02:07Z","articleSection":"general","author":[{"@type":"Person","name":"Ben Horowitz"}],"creator":["Ben Horowitz"],"keywords":[],"publisher":{"@type":"Organization","name":"Сфера","logo":{"@type":"ImageObject","url":"https:\/\/a16z.com\/wp-content\/uploads\/2017\/12\/cropped-a16z-favicon.png"}}}
+		</script>
+
+			<!-- END wp-parsely Plugin Version 1.14 -->
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<link rel='dns-prefetch' href='//c0.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>	<script>
+				window.dataLayer = window.dataLayer || [];
+				window.dataLayer.push(
+					[]				);
+			</script>
+		<!-- Google Optimize Anti-flicker Snippet -->
+			<script>(function(a,s,y,n,c,h,i,d,e){s.className+=" "+y;h.start=1*new Date;
+			h.end=i=function(){s.className=s.className.replace(RegExp(" ? "+y),"")};
+			(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+			})(window,document.documentElement,"async-hide","dataLayer",4000,
+			{"GTM-WHMSDPX":true});</script>
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+			new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+			"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,"script","dataLayer","GTM-WHMSDPX");</script>    <script type="text/javascript">
+        !function(t,e,c,n,o,r){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},setTimeout(function(){o=e.createElement("script"),r=e.getElementsByTagName("script")[0],o.src=c,r.parentNode.insertBefore(o,r)},0)}(window,document,"https://ext.chtbl.com/trackable.js","trackable");
+
+        // Initialize with your Trackable API key
+        trackable('init', 'b44008f3b116fc2e557d345d36a459ad');
+    </script>
+    
+			<style type="text/css" id="wp-custom-css">
+				#wpstats {
+	display: none;
+}
+
+.wp-content iframe.youtube-player {
+	height: 360px !important;
+}
+
+.wp-video-shortcode div {
+	display: flex;
+	font-size: .938rem;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.wp-video-shortcode .mejs-time {
+	font-size: 11px;
+}			</style>
+		    <style>
+	    .ab-test-b {
+		    display: none !important;
+	    }
+
+	    .ab-test .ab-test-a {
+		    display: none !important;
+	    }
+
+	    .ab-test .ab-test-b {
+		    display: block !important;
+	    }
+    </style>
+</head>
+<body class="archive author author-ben-horowitz author-11308 enable-announcement-bar">
+	<div id="page" class="site">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+                    
+        		
+		<!-- Vertical Pages Rebranded Header -->
+		
+        <!-- Rebranded Header -->
+                <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            body > .site {
+                max-width: none;
+                background: transparent;
+            }
+
+            body .site-content {
+                margin-bottom: 0;
+                padding: 0;
+            }
+        </style>
+
+                        <header id="header" class="header-new">
+                                    <div class="bg-header" style=""></div>
+                        <div class="container">
+                <div class="header-holder">
+                    <div class="logo-wrap">
+                        <a class="logo" href="../../index.html">
+                                                            <center><b style="font-size:28px; color:red">Taxonomy</b></center>                                              </a>
+                                                
+                    </div>
+                                        <a href="#" class="nav-opener"><span><span class="sr-only">Nav Opener</span></span></a>
+                    <nav id="nav">
+                        <ul>
+	                        	                        	                                                    <li class="">
+                                <a href="../../index.html">Главная</a>
+                                                            </li>
+                            	                        	                                                    <li class="">
+                                <a href="/w/">Все статьи</a>
+                                                            </li>
+                            	                        	 <li class="">
+                                <a href="/article/Вирусы">Читать статью</a></li>                                                   <li class="has-drop is-single">
+                                <a href="#">О проекте</a>
+                                                                    <div class="nav-drop">
+                                        <div class="holder">
+                                            <div class="two-cols">
+                                                                                                <div class="col">
+	                                                                                                    <ul>
+	                                                                                                            <li><a href="/article/Сфера_(энциклопедия)">Сфера (энциклопедия)</a></li>
+	                                                                                                            <li><a href="https://cdi-communities.fandom.com/ru/wiki/WorldWide_CDI_Organization?useskin=oasis">Всемирная организация CDI</a></li>
+	                                                                                                            <li><a href="https://wwco-org.github.io/w/ru/our-work/fkawp-projects/">Альянс FKAWP</a></li>
+	                                                                                                            <li><a href="https://cdi-communities.fandom.com/ru/wiki/Условия_использования?useskin=oasis">Условия использования</a></li>
+	                                                                                                            <li><a href="https://wwco-org.github.io/w/ru/privacy-policy/">Политика конфиденциальности</a></li>
+	                                                                                                            <li><a href="https://wwco-org.github.io/w/ru/privacy-policy/index2.html">Отказ от ответственности</a></li>
+	                                                                                                            <li><a href="https://wwco-org.github.io/w/ru/privacy-policy/index3.html">Соглашение о cookie</a></li>
+	                                                                                                            
+	                                                                                                        </ul>
+                                                </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                                            </li>
+                            	                        	                                                    <li class="has-drop">
+                                <a href="#">Контент</a>
+                                                                    <div class="nav-drop">
+                                        <div class="holder">
+                                            <div class="two-cols">
+                                                                                                <div class="col">
+	                                                                                              
+	                                                                                                    <ul>
+	                                                                                                            <li><a href="/w/">Все статьи</a></li>
+	                                                                                                            <li><a href="/w/events_and_recommendations/">События и рекомендации</a></li>
+	                                                                                                           
+	                                                                                                        </ul>
+                                                </div>
+                                                                                                                                                         </div>
+                                        </div>
+                                    </div>
+                                                            </li>
+                            	                        	                                                    <li class="">
+                                <a href="https://wwco-org.github.io/w/ru/DonateList/donate.html">Пожертвовать</a>
+                                                            </li>
+                            	                        	                                                    
+                                                    </ul>
+                    </nav>
+                                      <div class="search"> <div class="search-opener-wrap"><a href="https://sph-org.github.io/s/"><img width="21" src="../search.png"></a>
+                </div>
+            </div>
+        </header>
+<!-- version 1.0.2 (change every time you update a partial) -->
+				
+				<div id="content" class="site-content sidebar--none">
+			<main id="primary" class="content-area site-content__primary" role="main">
+                                <div class="content-new">
+                    
+
+
+	<main class="archive-content archive-content__primary archive-content--author">
+
+		
+<div class="team-member__info">
+<div class="container"
+	<div class="team-member__content-wrapper w-thumbnail">
+		<header class="page-header page-header--team-member">
+			<h1 class="page-header__title">Вирусы (Viruses)</h1>
+		</header><small style="font-size:10px">Инфекционный агент, размножающийся в клетках (Infectious agent that replicates in cells)</small>
+		
+		<main id="content" class="mw-body">
+			<div class="banner-container">
+			<div id="siteNotice"></div>
+			</div>
+			<div id="bodyContent" class="content">
+				<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><script>function mfTempOpenSection(id){var block=document.getElementById("mf-section-"+id);block.className+=" open-block";block.previousSibling.className+=" open-block";}</script><div class="mw-parser-output"><section class="mf-section-0" id="mf-section-0"><div class="thumb tright"><div class="thumbinner" style="width:400px;"><a href="https://mediatop.github.io/File:Bacteriophage_structure.png" class="image"><img alt="" src="https://mediatop.github.io/uploads/220px-Bacteriophage_structure.png" decoding="async" width="400" height="222" class="thumbimage" data-file-width="450" data-file-height="250"></a>  <div class="thumbcaption"><div class="magnify"><a href="https://mediatop.github.io/File:Bacteriophage_structure.png" class="internal" title="Увеличить"></a></div><i><a href="/article/Enterobacteria_phage_T4" class="mw-redirect" title="Enterobacteria phage T4">Enterobacteria phage T4</a></i></div></div></div>
+</section><h2 class="section-heading" onclick="mfTempOpenSection(1)"> <span id=".D0.9F.D1.80.D0.BE.D0.B1.D0.BB.D0.B5.D0.BC.D0.B0_.D0.BE.D0.BF.D1.80.D0.B5.D0.B4.D0.B5.D0.BB.D0.B5.D0.BD.D0.B8.D1.8F_.D0.B0.D0.B4.D0.B0.D0.BF.D1.82.D0.B0.D1.86.D0.B8.D0.B8"></span><span class="mw-headline" id="Таксонавигация">Таксонавигация</span></h2><section class="mf-section-1 collapsible-block" id="mf-section-1">
+<p>(Unranked): <a class="mw-selflink selflink">Virus</a><br>
+Realms: <i><a href="/article/Adnaviria" title="Adnaviria">Adnaviria</a></i> – <i><a href="/article/Duplodnaviria" title="Duplodnaviria">Duplodnaviria</a></i> – <i><a href="/article/Monodnaviria" title="Monodnaviria">Monodnaviria</a></i> – <i><a href="/article/Riboviria" title="Riboviria">Riboviria</a></i> – <i><a href="/w/index.php?title=Ribozyviria&amp;action=edit&amp;redlink=1" class="new" title="Ribozyviria (page does not exist)">Ribozyviria</a></i> – <i><a href="/article/Varidnaviria" title="Varidnaviria">Varidnaviria</a></i> <br>
+Regna: <i><a href="/article/Bamfordvirae" title="Bamfordvirae">Bamfordvirae</a> – <a href="/article/Helvetiavirae" title="Helvetiavirae">Helvetiavirae</a> – <a href="/article/Heunggongvirae" title="Heunggongvirae">Heunggongvirae</a> – <a href="/article/Loebvirae" title="Loebvirae">Loebvirae</a> – <a href="/article/Orthornavirae" title="Orthornavirae">Orthornavirae</a> – <a href="/article/Pararnavirae" title="Pararnavirae">Pararnavirae</a> – <a href="/article/Sangervirae" title="Sangervirae">Sangervirae</a> – <a href="/article/Shotokuvirae" title="Shotokuvirae">Shotokuvirae</a> – <a href="/article/Trapavirae" title="Trapavirae">Trapavirae</a></i> – <i><a href="/w/index.php?title=Zilligvirae&amp;action=edit&amp;redlink=1" class="new" title="Zilligvirae (page does not exist)">Zilligvirae</a></i><br>
+Phyla: <i><a href="/article/Artverviricota" title="Artverviricota">Artverviricota</a></i> – <i><a href="/article/Cossaviricota" title="Cossaviricota">Cossaviricota</a></i> – <i><a href="/article/Cressdnaviricota" title="Cressdnaviricota">Cressdnaviricota</a></i> – <i><a href="/article/Dividoviricota" title="Dividoviricota">Dividoviricota</a></i> – <i><a href="/article/Duplornaviricota" title="Duplornaviricota">Duplornaviricota</a></i> – <i><a href="/article/Hofneiviricota" title="Hofneiviricota">Hofneiviricota</a></i> – <i><a href="/article/Kitrinoviricota" title="Kitrinoviricota">Kitrinoviricota</a></i> – <i><a href="/article/Lenarviricota" title="Lenarviricota">Lenarviricota</a></i> – <i><a href="/article/Negarnaviricota" title="Negarnaviricota">Negarnaviricota</a></i> – <i><a href="/article/Nucleocytoviricota" title="Nucleocytoviricota">Nucleocytoviricota</a></i> – <i><a href="/article/Peploviricota" title="Peploviricota">Peploviricota</a></i> –  <i><a href="/w/index.php?title=Phixviricota&amp;action=edit&amp;redlink=1" class="new" title="Phixviricota (page does not exist)">Phixviricota</a></i> – <i><a href="/article/Pisuviricota" title="Pisuviricota">Pisuviricota</a></i> – <i><a href="/w/index.php?title=Preplasmiviricota&amp;action=edit&amp;redlink=1" class="new" title="Preplasmiviricota (page does not exist)">Preplasmiviricota</a></i> – <i><a href="/article/Saleviricota" title="Saleviricota">Saleviricota</a></i> – <i><a href="/article/Uroviricota" title="Uroviricota">Uroviricota</a></i><br> <br>
+Subphyla: <i><a href="/article/Haploviricotina" title="Haploviricotina">Haploviricotina</a></i> – <i><a href="/article/Polyploviricotina" title="Polyploviricotina">Polyploviricotina</a></i><br> <br>
+Classes:
+<i><a href="/article/Allassoviricetes" title="Allassoviricetes">Allassoviricetes</a></i> –
+<i><a href="/article/Alsuviricetes" title="Alsuviricetes">Alsuviricetes</a></i> –
+<i><a href="/article/Amabiliviricetes" title="Amabiliviricetes">Amabiliviricetes</a></i> –
+<i><a href="/article/Arfiviricetes" title="Arfiviricetes">Arfiviricetes</a></i> –
+<i><a href="/article/Caudoviricetes" title="Caudoviricetes">Caudoviricetes</a></i> –
+<i><a href="/article/Chunqiuviricetes" title="Chunqiuviricetes">Chunqiuviricetes</a></i> –
+<i><a href="/article/Duplopiviricetes" title="Duplopiviricetes">Duplopiviricetes</a></i> –
+<i><a href="/article/Ellioviricetes" title="Ellioviricetes">Ellioviricetes</a></i> –
+<i><a href="/article/Faserviricetes" title="Faserviricetes">Faserviricetes</a></i> –
+<i><a href="/article/Flasuviricetes" title="Flasuviricetes">Flasuviricetes</a></i> –
+<i><a href="/article/Insthoviricetes" title="Insthoviricetes">Insthoviricetes</a></i> –
+<i><a href="/article/Herviviricetes" title="Herviviricetes">Herviviricetes</a></i> –
+<i><a href="/w/index.php?title=Howeltoviricetes&amp;action=edit&amp;redlink=1" class="new" title="Howeltoviricetes (page does not exist)">Howeltoviricetes</a></i> –
+<i><a href="/article/Huolimaviricetes" title="Huolimaviricetes">Huolimaviricetes</a></i> –
+<i><a href="/article/Laserviricetes" title="Laserviricetes">Laserviricetes</a></i> –
+<i><a href="/article/Magsaviricetes" title="Magsaviricetes">Magsaviricetes</a></i> –
+<i><a href="/w/index.php?title=Malgrandaviricetes&amp;action=edit&amp;redlink=1" class="new" title="Malgrandaviricetes (page does not exist)">Malgrandaviricetes</a></i> –
+<i><a href="/w/index.php?title=Maveriviricetes&amp;action=edit&amp;redlink=1" class="new" title="Maveriviricetes (page does not exist)">Maveriviricetes</a></i> –
+<i><a href="/article/Megaviricetes" title="Megaviricetes">Megaviricetes</a></i> –
+<i><a href="/w/index.php?title=Miaviricetes&amp;action=edit&amp;redlink=1" class="new" title="Miaviricetes (page does not exist)">Miaviricetes</a></i> –
+<i><a href="/article/Milneviricetes" title="Milneviricetes">Milneviricetes</a></i> –
+<i><a href="/article/Monjiviricetes" title="Monjiviricetes">Monjiviricetes</a></i> –
+<i><a href="/w/index.php?title=Mouviricetes&amp;action=edit&amp;redlink=1" class="new" title="Mouviricetes (page does not exist)">Mouviricetes</a></i> –
+<i><a href="/article/Papovaviricetes" title="Papovaviricetes">Papovaviricetes</a></i> –
+<i><a href="/article/Pisoniviricetes" title="Pisoniviricetes">Pisoniviricetes</a></i> –
+<i><a href="/article/Pokkesviricetes" title="Pokkesviricetes">Pokkesviricetes</a></i> –
+<i><a href="/w/index.php?title=Quintoviricetes&amp;action=edit&amp;redlink=1" class="new" title="Quintoviricetes (page does not exist)">Quintoviricetes</a></i> –
+<i><a href="/article/Repensiviricetes" title="Repensiviricetes">Repensiviricetes</a></i> –
+<i><a href="/article/Revtraviricetes" title="Revtraviricetes">Revtraviricetes</a></i> –
+<i><a href="/w/index.php?title=Stelpaviricetes&amp;action=edit&amp;redlink=1" class="new" title="Stelpaviricetes (page does not exist)">Stelpaviricetes</a></i> –
+<i><a href="/w/index.php?title=Tectiliviricetes&amp;action=edit&amp;redlink=1" class="new" title="Tectiliviricetes (page does not exist)">Tectiliviricetes</a></i> –
+<i><a href="/w/index.php?title=Tolucaviricetes&amp;action=edit&amp;redlink=1" class="new" title="Tolucaviricetes (page does not exist)">Tolucaviricetes</a></i> –
+<i><a href="/article/Vidaverviricetes" title="Vidaverviricetes">Vidaverviricetes</a></i> –
+<i><a href="/article/Yunchangviricetes" title="Yunchangviricetes">Yunchangviricetes</a></i><br><br>
+Ordines: 
+<i><a href="/article/Caudovirales" title="Caudovirales">Caudovirales</a></i> –
+<i><a href="/article/Herpesvirales" title="Herpesvirales">Herpesvirales</a></i> –
+<i><a href="/article/Ligamenvirales" title="Ligamenvirales">Ligamenvirales</a></i> –
+<i><a href="/article/Nidovirales" title="Nidovirales">Nidovirales</a></i> –
+<i><a href="/article/Ortervirales" title="Ortervirales">Ortervirales</a></i> –
+<i><a href="/article/Picornavirales" title="Picornavirales">Picornavirales</a></i> –
+<i><a href="/article/Tymovirales" title="Tymovirales">Tymovirales</a></i><br><br>
+Familiae: 
+<i><a href="/article/Adenoviridae" title="Adenoviridae">Adenoviridae</a></i> –
+<i><a href="/article/Alphasatellitidae" title="Alphasatellitidae">Alphasatellitidae</a></i> –
+<i><a href="/article/Alphatetraviridae" title="Alphatetraviridae">Alphatetraviridae</a></i> –
+<i><a href="/article/Alvernaviridae" title="Alvernaviridae">Alvernaviridae</a></i> –
+<i><a href="/article/Amalgaviridae" title="Amalgaviridae">Amalgaviridae</a></i> –
+<i><a href="/article/Ampullaviridae" title="Ampullaviridae">Ampullaviridae</a></i> –
+<i><a href="/article/Anelloviridae" title="Anelloviridae">Anelloviridae</a></i> –
+<i><a href="/article/Ascoviridae" title="Ascoviridae">Ascoviridae</a></i> –
+<i><a href="/article/Asfarviridae" title="Asfarviridae">Asfarviridae</a></i> –
+<i><a href="/article/Astroviridae" title="Astroviridae">Astroviridae</a></i> –
+<i><a href="/article/Avsunviroidae" title="Avsunviroidae">Avsunviroidae</a></i> –
+<i><a href="/article/Bacilladnaviridae" title="Bacilladnaviridae">Bacilladnaviridae</a></i> –
+<i><a href="/article/Baculoviridae" title="Baculoviridae">Baculoviridae</a></i> –
+<i><a href="/article/Barnaviridae" title="Barnaviridae">Barnaviridae</a></i> –
+<i><a href="/article/Benyviridae" title="Benyviridae">Benyviridae</a></i> –
+<i><a href="/article/Bicaudaviridae" title="Bicaudaviridae">Bicaudaviridae</a></i> –
+<i><a href="/article/Bidnaviridae" title="Bidnaviridae">Bidnaviridae</a></i> –
+<i><a href="/article/Birnaviridae" title="Birnaviridae">Birnaviridae</a></i> –
+<i><a href="/article/Bromoviridae" title="Bromoviridae">Bromoviridae</a></i> –
+<i><a href="/article/Caliciviridae" title="Caliciviridae">Caliciviridae</a></i> –
+<i><a href="/article/Carmotetraviridae" title="Carmotetraviridae">Carmotetraviridae</a></i> –
+<i><a href="/article/Chrysoviridae" title="Chrysoviridae">Chrysoviridae</a></i> –
+<i><a href="/article/Circoviridae" title="Circoviridae">Circoviridae</a></i> –
+<i><a href="/article/Clavaviridae" title="Clavaviridae">Clavaviridae</a></i> –
+<i><a href="/article/Closteroviridae" title="Closteroviridae">Closteroviridae</a></i> –
+<i><a href="/article/Corticoviridae" title="Corticoviridae">Corticoviridae</a></i> –
+<i><a href="/article/Cystoviridae" title="Cystoviridae">Cystoviridae</a></i> –
+<i><a href="/article/Endornaviridae" title="Endornaviridae">Endornaviridae</a></i> –
+<i><a href="/article/Flaviviridae" title="Flaviviridae">Flaviviridae</a></i> –
+<i><a href="/article/Fuselloviridae" title="Fuselloviridae">Fuselloviridae</a></i> –
+<i><a href="/article/Geminiviridae" title="Geminiviridae">Geminiviridae</a></i> –
+<i><a href="/article/Genomoviridae" title="Genomoviridae">Genomoviridae</a></i> –
+<i><a href="/article/Globuloviridae" title="Globuloviridae">Globuloviridae</a></i> –
+<i><a href="/article/Guttaviridae" title="Guttaviridae">Guttaviridae</a></i> –
+<i><a href="/article/Hepadnaviridae" title="Hepadnaviridae">Hepadnaviridae</a></i> –
+<i><a href="/article/Hepeviridae" title="Hepeviridae">Hepeviridae</a></i> –
+<i><a href="/article/Hypoviridae" title="Hypoviridae">Hypoviridae</a></i> –
+<i><a href="/article/Hytrosaviridae" title="Hytrosaviridae">Hytrosaviridae</a></i> –
+<i><a href="/article/Inoviridae" title="Inoviridae">Inoviridae</a></i> –
+<i><a href="/article/Iridoviridae" title="Iridoviridae">Iridoviridae</a></i> –
+<i><a href="/article/Lavidaviridae" title="Lavidaviridae">Lavidaviridae</a></i> –
+<i><a href="/article/Leviviridae" title="Leviviridae">Leviviridae</a></i> –
+<i><a href="/article/Luteoviridae" title="Luteoviridae">Luteoviridae</a></i> –
+<i><a href="/article/Marseilleviridae" title="Marseilleviridae">Marseilleviridae</a></i> –
+<i><a href="/article/Megabirnaviridae" title="Megabirnaviridae">Megabirnaviridae</a></i> –
+<i><a href="/article/Microviridae" title="Microviridae">Microviridae</a></i> –
+<i><a href="/article/Mimiviridae" title="Mimiviridae">Mimiviridae</a></i> –
+<i><a href="/article/Mycodnaviridae" title="Mycodnaviridae">Mycodnaviridae</a></i> –
+<i><a href="/article/Nanoviridae" title="Nanoviridae">Nanoviridae</a></i> –
+<i><a href="/article/Narnaviridae" title="Narnaviridae">Narnaviridae</a></i> –
+<i><a href="/article/Nimaviridae" title="Nimaviridae">Nimaviridae</a></i> –
+<i><a href="/article/Nodaviridae" title="Nodaviridae">Nodaviridae</a></i> –
+<i><a href="/article/Nudiviridae" title="Nudiviridae">Nudiviridae</a></i> –
+<i><a href="/article/Papillomaviridae" title="Papillomaviridae">Papillomaviridae</a></i> –
+<i><a href="/article/Partitiviridae" title="Partitiviridae">Partitiviridae</a></i> –
+<i><a href="/article/Parvoviridae" title="Parvoviridae">Parvoviridae</a></i> –
+<i><a href="/article/Permutotetraviridae" title="Permutotetraviridae">Permutotetraviridae</a></i> –
+<i><a href="/article/Phycodnaviridae" title="Phycodnaviridae">Phycodnaviridae</a></i> –
+<i><a href="/article/Picobirnaviridae" title="Picobirnaviridae">Picobirnaviridae</a></i> –
+<i><a href="/article/Plasmaviridae" title="Plasmaviridae">Plasmaviridae</a></i> –
+<i><a href="/article/Pleolipoviridae" title="Pleolipoviridae">Pleolipoviridae</a></i> –
+<i><a href="/article/Polydnaviridae" title="Polydnaviridae">Polydnaviridae</a></i> –
+<i><a href="/article/Polyomaviridae" title="Polyomaviridae">Polyomaviridae</a></i> –
+<i><a href="/article/Portogloboviridae" title="Portogloboviridae">Portogloboviridae</a></i> –
+<i><a href="/article/Pospiviroidae" title="Pospiviroidae">Pospiviroidae</a></i> –
+<i><a href="/article/Potyviridae" title="Potyviridae">Potyviridae</a></i> –
+<i><a href="/article/Poxviridae" title="Poxviridae">Poxviridae</a></i> –
+<i><a href="/article/Quadriviridae" title="Quadriviridae">Quadriviridae</a></i> –
+<i><a href="/article/Reoviridae" title="Reoviridae">Reoviridae</a></i> –
+<i><a href="/article/Sarthroviridae" title="Sarthroviridae">Sarthroviridae</a></i> –
+<i><a href="/article/Smacoviridae" title="Smacoviridae">Smacoviridae</a></i> –
+<i><a href="/article/Solemoviridae" title="Solemoviridae">Solemoviridae</a></i> –
+<i><a href="/article/Solinviviridae" title="Solinviviridae">Solinviviridae</a></i> –
+<i><a href="/article/Sphaerolipoviridae" title="Sphaerolipoviridae">Sphaerolipoviridae</a></i> –
+<i><a href="/article/Spiraviridae" title="Spiraviridae">Spiraviridae</a></i> –
+<i><a href="/article/Tectiviridae" title="Tectiviridae">Tectiviridae</a></i> –
+<i><a href="/article/Togaviridae" title="Togaviridae">Togaviridae</a></i> –
+<i><a href="/article/Tolecusatellitidae" title="Tolecusatellitidae">Tolecusatellitidae</a></i> –
+<i><a href="/article/Tombusviridae" title="Tombusviridae">Tombusviridae</a></i> –
+<i><a href="/article/Totiviridae" title="Totiviridae">Totiviridae</a></i> –
+<i><a href="/article/Tristromaviridae" title="Tristromaviridae">Tristromaviridae</a></i> –
+<i><a href="/article/Turriviridae" title="Turriviridae">Turriviridae</a></i> –	
+<i><a href="/article/Virgaviridae" title="Virgaviridae">Virgaviridae</a></i><br><br>
+Genera:
+<i><a href="/article/Albetovirus" title="Albetovirus">Albetovirus</a></i> –
+<i><a href="/article/Aumaivirus" title="Aumaivirus">Aumaivirus</a></i> –
+<i><a href="/article/Blunervirus" title="Blunervirus">Blunervirus</a></i> –
+<i><a href="/article/Botybirnavirus" title="Botybirnavirus">Botybirnavirus</a></i> –
+<i><a href="/article/Cilevirus" title="Cilevirus">Cilevirus</a></i> –
+<i><a href="/article/Deltavirus" title="Deltavirus">Deltavirus</a></i> –
+<i><a href="/article/Dinodnavirus" title="Dinodnavirus">Dinodnavirus</a></i> –
+<i><a href="/article/Higrevirus" title="Higrevirus">Higrevirus</a></i> –
+<i><a href="/article/Idaeovirus" title="Idaeovirus">Idaeovirus</a></i> –
+<i><a href="/article/Ourmiavirus" title="Ourmiavirus">Ourmiavirus</a></i> –
+<i><a href="/article/Papanivirus" title="Papanivirus">Papanivirus</a></i> –
+<i><a href="/article/Rhizidiovirus" title="Rhizidiovirus">Rhizidiovirus</a></i> –
+<i><a href="/article/Salterprovirus" title="Salterprovirus">Salterprovirus</a></i> –
+<i><a href="/article/Sinaivirus" title="Sinaivirus">Sinaivirus</a></i> –
+<i><a href="/article/Virtovirus" title="Virtovirus">Virtovirus</a></i><br></p>
+<hr><p><a href="/article/Virus#Baltimore_.281971.29" title="Virus">Baltimore</a>
+Классификация: <a href="/article/Group_I:_dsDNA" title="Group I: dsDNA">Group I: dsDNA</a> – <a href="/article/Group_II:_ssDNA" title="Group II: ssDNA">Group II: ssDNA</a> – <a href="/article/Group_III:_dsRNA" title="Group III: dsRNA">Group III: dsRNA</a> – <a href="/article/Group_IV:_ssRNA(%2B)" title="Group IV: ssRNA(+)">Group IV: ssRNA(+)</a> – <a href="/article/Group_V:_ssRNA(-)" title="Group V: ssRNA(-)">Group V: ssRNA(-)</a> – <a href="/article/Group_VI:_ssRNA(RT)" title="Group VI: ssRNA(RT)">Group VI: ssRNA(RT)</a> – <a href="/article/Group_VII:_dsDNA(RT)" title="Group VII: dsDNA(RT)">Group VII: dsDNA(RT)</a>
+</p>
+<hr><p>Subviral agents (<span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname"><a href="/article/Andrew_King" title="Andrew King">King</a></span></span> <i>et al.</i> 2011): <a href="/article/Satellites_and_other_virus-dependent_nucleic_acids" title="Satellites and other virus-dependent nucleic acids">Satellites and other virus-dependent nucleic acids</a> – <a href="/article/Viroids" title="Viroids">Viroids</a> – <a href="/article/Prions" class="mw-redirect" title="Prions">Prions</a>
+</p>
+</section><h2 class="section-heading" onclick="mfTempOpenSection(2)"> <span id=".D0.9D.D0.B0.D0.B7.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"></span><span class="mw-headline" id="Название">Название</span></h2><section class="mf-section-2 collapsible-block" id="mf-section-2">
+<ul><li>Aphanobionta <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Novak</span></span>, 1930, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothmaler</span></span>, 1951</li>
+<li>Aphanobiontidea <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Walton</span></span>, 1930</li>
+<li>Archaeophyta <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Barkley</span></span>, 1939 non Archephyta <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Haeckel</span></span>, 1866</li>
+<li>Vira <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>, 1939</li>
+<li>Viriphyta <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">McKinney</span></span>, 1944</li>
+<li>Virales <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>, 1948</li>
+<li>Archetista <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Jahn</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Jahn</span></span>, 1949</li>
+<li>Vireae <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Barkley</span></span>, 1949</li>
+<li>Acellularae <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Traub</span></span>, 1963</li>
+<li>Protobiota <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Hsen-Hsu</span></span>, 1965</li>
+<li>Vira <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Barkley</span></span>, 1970</li>
+<li>Acytota <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Jeffrey</span></span>, 1971</li>
+<li>Akamara <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Hurst</span></span>, 2000</li></ul></section><h2 class="section-heading" onclick="mfTempOpenSection(3)"> <span id=".D0.98.D1.81.D1.82.D0.BE.D1.87.D0.BD.D0.B8.D0.BA.D0.B8"></span><span class="mw-headline" id="Источники">Источники</span></h2><section class="mf-section-3 collapsible-block" id="mf-section-3">
+<ul><li><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Gibbs, A. J.</span></span> 2013. Viral taxonomy needs a spring clean; its exploration era is over. <i>Virology Journal</i> 10:254, <a rel="nofollow" class="external text" href="http://www.virologyj.com/content/pdf/1743-422X-10-254.pdf">(PDF).</a></li>
+<li><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Collier, Leslie</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Balows, Albert</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Sussman, Max</span></span> 1998. Topley and Wilson's Microbiology and Microbial Infections ninth edition, Volume 1, Virology, volume editors: <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Mahy, Brian</span></span> and <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Collier, Leslie</span></span>. Arnold. <a href="/article/Special:BookSources/0340663162" title="Special:BookSources/0340663162">ISBN 0340663162</a>.</li>
+<li><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Dimmock, N.J.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Easton, Andrew J.</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Leppard, Keith</span></span> 2007. Introduction to Modern Virology sixth edition, Blackwell Publishing, <a href="/article/Special:BookSources/1405136456" title="Special:BookSources/1405136456">ISBN 1405136456</a>.</li>
+<li><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Knipe, David M.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Howley, Peter M.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Griffin, Diane E.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Lamb, Robert A.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Martin, Malcolm A</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Roizman, Bernard</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Straus Stephen E.</span></span> 2007. Fields Virology Lippincott Williams &amp; Wilkins. <a href="/article/Special:BookSources/0781760607" title="Special:BookSources/0781760607">ISBN 0781760607</a>.</li>
+<li><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Shors, Teri</span></span> 2008. Understanding Viruses. Jones and Bartlett Publishers. <a href="/article/Special:BookSources/0763729329" title="Special:BookSources/0763729329">ISBN 0763729329</a>.</li></ul><h3 class="in-block"><span id=".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"></span><span class="mw-headline" id="Ссылки">Ссылки</span></h3>
+<ul><li><a rel="nofollow" class="external text" href="https://talk.ictvonline.org">ICTV Virus Taxonomy 2019</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.academia.edu/8097730/Ninth_Report_of_the_International_Committee_on_Taxonomy_of_Viruses">Ninth Report of the ICTV 2011 (Fulltext)</a></li>
+<li><a rel="nofollow" class="external text" href="http://viralzone.expasy.org/">Viralzone</a></li>
+<li><a rel="nofollow" class="external text" href="http://viralzone.expasy.org/all_by_species/254.html">Viralzone: Baltimore classification</a></li>
+<li class="mw-empty-elt">
+<li><a rel="nofollow" class="external text" href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lin=s&amp;p=has_linkout&amp;id=10239">Virus</a> – Подробная информация о таксоне в базе данных <a href="/article/National_Center_for_Biotechnology_Information" title="National Center for Biotechnology Information">National Center for Biotechnology Information</a> (NCBI).</li>
+<li><a href="/article/List_of_virus_species" title="List of virus species">Alphabetical list of virus species</a></li></ul></section><h2 class="section-heading" onclick="mfTempOpenSection(4)"> <span id=".D0.9D.D0.B0.D1.80.D0.BE.D0.B4.D0.BD.D1.8B.D0.B5_.D0.BD.D0.B0.D0.B7.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F"></span><span class="mw-headline" id="Народные_названия">Народные названия</span></h2><section class="mf-section-4 collapsible-block" id="mf-section-4">
+<div style="padding:0 10px; -moz-column-count: 2; -moz-column-gap: 40px; -moz-column-rule: 1px solid #aaa; -webkit-column-count: 2; -webkit-column-gap: 40px; -webkit-column-rule: 1px solid #aaa; column-count: 2; column-gap: 40px; column-rule: 1px solid #aaa; border:1px solid #aaa; background:#f9f9f9; font-size:90%"><b>Afrikaans:</b> Virus<br><b>Alemannisch:</b> Virus (pl. Vire)<br><b>العربية:</b> فيروس<br><b>asturianu:</b> Virus<br><b>অসমীয়া:</b> বিষাণু<br><b>Boarisch:</b> Viarus (pl. Viarusse, Viarn)<br><b>беларуская:</b> Вірусы<br><b>български:</b> Вирус<br><b>বাংলা:</b> ভাইরাস<br><b>bosanski:</b> Virus (pl. virusi)<br><b>català:</b> Virus<br><b>čeština:</b> virus (pl. viry)<br><b>Cymraeg:</b> Feirws<br><b>dansk:</b> Virus (pl. vira)<br><b>Deutsch:</b> Virus (pl. Viren)<br><b>Ελληνικά:</b> Ιός (pl. Ιοί)<br><b>English:</b> Virus<br><b>Esperanto:</b> Viruso<br><b>español:</b> Virus<br><b>eesti:</b> Viirus (pl. Viirused)<br><b>euskara:</b> Birus<br><b>فارسی:</b> ویروس<br><b>suomi:</b> Virus (pl. virukset)<br><b>Nordfriisk:</b> Wiiren<br><b>français:</b> Virus<br><b>galego:</b> Virus<br><b>Avañe'ẽ:</b> Popĩami<br><b>ગુજરાતી:</b> વિષાણુ<br><b>Hawaiʻi:</b> Mea ho‘oma‘i<br><b>עברית:</b> נגיפים‏ / וירוסים<br><b>हिन्दी:</b> विषाणु<br><b>hrvatski:</b> Virus<br><b>magyar:</b> Vírus<br><b>հայերեն:</b> Հարուցիչ<br><b>interlingua:</b> Virus<br><b>Bahasa Indonesia:</b> Virus<br><b>íslenska:</b> Veira<br><b>italiano:</b> Virus<br><b>日本語:</b> ウイルス<br><b>la .lojban.:</b> vidru<br><b>ქართული:</b> ვირუსი<br><b>ភាសាខ្មែរ:</b> វិសាណូ, មេរោគ<br><b>ಕನ್ನಡ:</b> ವೈರಾಣು<br><b>한국어:</b> 바이러스<br><b>lietuvių:</b> Virusas<br><b>latviešu:</b> Vīruss<br><b>македонски:</b> Вирус<br><b>मराठी:</b> विषाणु<br><b>Bahasa Melayu:</b> Virus<br><b>नेपाल भाषा:</b> विषाणु<br><b>नेपाली:</b> विषाणु<br><b>Nederlands:</b> Virus<br><b>norsk nynorsk:</b> Virus<br><b>norsk:</b> Virus<br><b>occitan:</b> Virús<br><b>ଓଡ଼ିଆ:</b> ଭୂତାଣୁ<br><b>ਪੰਜਾਬੀ:</b> ਵਿਸ਼ਾਣੂ<br><b>polski:</b> wirusy<br><b>پښتو:</b> ويروس<br><b>português:</b> Vírus<br><b>Runa Simi:</b> Añaw<br><b>română:</b> Virus<br><b>русский:</b> Вирусы<br><b>Simple English:</b> Virus<br><b>slovenčina:</b> Vírus<br><b>slovenščina:</b> Virus<br><b>српски / srpski:</b> вирус<br><b>Sunda:</b> Pirus<br><b>svenska:</b> Virus<br><b>தமிழ்:</b> தீநுண்மம்<br><b>ไทย:</b> ไวรัส<br><b>Türkçe:</b> Virüs<br><b>українська:</b> Вірус<br><b>Tiếng Việt:</b> Virus, Siêu vi<br><b>Volapük:</b> Virud<br><b>ייִדיש:</b> ווירוס<br><b>中文:</b> 病毒<br></div>
+<div style="box-shadow: 0 0 .2em #999; border-radius: .2em; margin: .5em .5em 1em .5em; padding: .5em 1em .5em 1em; background:#F8F9FA;">
+<table width="100%" style="clear:both; padding:0;"><tbody><tr><td width="50" align="center"><a href="https://mediatop.github.io/File:Mediatop-logo.png" class="image" title="Mediatop"><img alt="" src="https://bioverse-org.github.io/mediatop/uploads/mediatop-logo.png" decoding="async" width="25" height="30" data-file-width="1024" data-file-height="1376"></a>
+</td>
+<td>For more multimedia, look at <i><b><a href="https://mediatop.github.io/mdtp/Category:Viruses/" class="extiw" title="c:Category:Viruses">Viruses</a></b></i> on <a href="https://mediatop.github.io/" class="extiw" title="c:">Mediatop</a>.
+</td></tr></tbody></table></div>
+<p><br></p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none"><div class="toctitle" lang="ru" dir="ltr"><h2 id="mw-toc-heading">Содержание</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul><li class="toclevel-1 tocsection-1"><a href="#%D0%A2%D0%B0%D0%BA%D1%81%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F"><span class="tocnumber">1</span> <span class="toctext">Таксонавигация</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5"><span class="tocnumber">2</span> <span class="toctext">Название</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8"><span class="tocnumber">3</span> <span class="toctext">Источники</span></a>
+<ul><li class="toclevel-2 tocsection-4"><a href="#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8"><span class="tocnumber">3.1</span> <span class="toctext">Ссылки</span></a></li>
+</ul></li>
+<li class="toclevel-1 tocsection-5"><a href="#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F"><span class="tocnumber">4</span> <span class="toctext">Народные названия</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#%D0%90%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8"><span class="tocnumber">5</span> <span class="toctext">Альтернативные классификации</span></a>
+<ul><li class="toclevel-2 tocsection-7"><a href="#Nov%C3%A1k_(1930)"><span class="tocnumber">5.1</span> <span class="toctext">Novák (1930)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Walton_(1930)"><span class="tocnumber">5.2</span> <span class="toctext">Walton (1930)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Holmes_in_Breed_et_al._(1948)"><span class="tocnumber">5.3</span> <span class="toctext">Holmes in Breed <i>et al.</i> (1948)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Barkley_(1949)"><span class="tocnumber">5.4</span> <span class="toctext">Barkley (1949)</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Rothmaler_(1951)"><span class="tocnumber">5.5</span> <span class="toctext">Rothmaler (1951)</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Lwoff,_Horne_&amp;_Tournier_(1962)"><span class="tocnumber">5.6</span> <span class="toctext">Lwoff, Horne &amp; Tournier (1962)</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Hsen-Hsu_(1965)"><span class="tocnumber">5.7</span> <span class="toctext">Hsen-Hsu (1965)</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Baltimore_(1971)"><span class="tocnumber">5.8</span> <span class="toctext">Baltimore (1971)</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Hurst_(2000)"><span class="tocnumber">5.9</span> <span class="toctext">Hurst (2000)</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#King_et_al._(2011)"><span class="tocnumber">5.10</span> <span class="toctext">King <i>et al.</i> (2011)</span></a></li>
+</ul></li>
+</ul></div>
+
+</section><h2 class="section-heading" onclick="mfTempOpenSection(5)"> <span id=".D0.90.D0.BB.D1.8C.D1.82.D0.B5.D1.80.D0.BD.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B5_.D0.BA.D0.BB.D0.B0.D1.81.D1.81.D0.B8.D1.84.D0.B8.D0.BA.D0.B0.D1.86.D0.B8.D0.B8"></span><span class="mw-headline" id="Альтернативные_классификации">Альтернативные классификации</span></h2><section class="mf-section-5 collapsible-block" id="mf-section-5">
+<h3 class="in-block"><span id="Nov.C3.A1k_.281930.29"></span><span class="mw-headline" id="Novák_(1930)">Novák (1930)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname"><a href="/article/Franti%C5%A1ek_Anton%C3%ADn_Nov%C3%A1k" title="František Antonín Novák">Novák, F. A.</a></span></span> 1930, 1940. <i>Systematická botanika</i>, 2. svazky, in: Rostlinopis, Prag.
+</p>
+<ul><li><a href="/article/Prokaryota" title="Prokaryota">Akaryonta</a>
+<ul><li><b>Aphanobionta</b></li></ul></li>
+<li><a href="/article/Eukaryota" title="Eukaryota">Karyonta</a></li></ul><h3 class="in-block"><span id="Walton_.281930.29"></span><span class="mw-headline" id="Walton_(1930)">Walton (1930)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Walton, Lee Barker</span></span> 1930. Studies concerning organisms occurring in water supplies with particular reference to those found in Ohio. <i>Ohio Biological Survey Bulletin</i>, 24: 1–86, <a rel="nofollow" class="external text" href="https://books.google.com/books?hl=&amp;id=j44PAQAAMAAJ">link</a>.
+</p><p>Kingdom <a href="/article/Bionta" class="mw-redirect" title="Bionta">Bionta</a> 
+</p>
+<ul><li>Subkingdom Protistodeae
+<ul><li>Phylum Probiontaria
+<ul><li>Class Microbiontoidea
+<ul><li>Order <b>Aphanobiontidea</b></li>
+<li>Order Chlamydozoidea</li></ul></li>
+<li>Class Bacterioidea</li>
+<li>Class Spirochaetoidea</li></ul></li></ul></li>
+<li>Subkingdom Metaphytodeae</li>
+<li>Subkingdom Metazoodeae</li></ul><h3 class="in-block"><span id="Holmes_in_Breed_et_al._.281948.29"></span><span class="mw-headline" id="Holmes_in_Breed_et_al._(1948)">Holmes in Breed <i>et al.</i> (1948)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes, F.O.</span></span> 1948. Order Virales: the filterable viruses. In: <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Breed, R.S.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Murray, E.G.D.</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Hitchens, A.P.</span></span> (eds). <i>Bergey's Manual of Determinative Bacteriology</i>, 6th ed. The Williams and Wilkins Co., Baltimore, <a rel="nofollow" class="external text" href="https://archive.org/stream/bergeysmanualofd00amer#page/n17/mode/2up">Bergey's manual of determinative bacteriology,</a> <a rel="nofollow" class="external text" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC440881/?page=1">The Outline Classification used in The Bergey Manual of Determinative Bacteriology.</a>
+</p><p>Division Schizophyta
+</p>
+<ul><li>Supplements: groups of uncertain relationship
+<ul><li>Order <a href="/w/index.php?title=Virales&amp;action=edit&amp;redlink=1" class="new" title="Virales (page does not exist)">Virales</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Breed</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Murray</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Hitchens</span></span>, 1944
+<ul><li>Suborder 1. <a href="/w/index.php?title=Phagineae&amp;action=edit&amp;redlink=1" class="new" title="Phagineae (page does not exist)">Phagineae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Family I. <i><a href="/w/index.php?title=Phagaceae&amp;action=edit&amp;redlink=1" class="new" title="Phagaceae (page does not exist)">Phagaceae</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Phagus&amp;action=edit&amp;redlink=1" class="new" title="Phagus (page does not exist)">Phagus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li></ul></li>
+<li>Suborder II. <a href="/w/index.php?title=Phytophagineae&amp;action=edit&amp;redlink=1" class="new" title="Phytophagineae (page does not exist)">Phytophagineae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Family I. <a href="/w/index.php?title=Chlorogenaceae&amp;action=edit&amp;redlink=1" class="new" title="Chlorogenaceae (page does not exist)">Chlorogenaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Chlorogenus&amp;action=edit&amp;redlink=1" class="new" title="Chlorogenus (page does not exist)">Chlorogenus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus II. <i><a href="/w/index.php?title=Carpophthora&amp;action=edit&amp;redlink=1" class="new" title="Carpophthora (page does not exist)">Carpophthora</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">McKinney</span></span></li>
+<li>Genus III. <i><a href="/w/index.php?title=Morsus&amp;action=edit&amp;redlink=1" class="new" title="Morsus (page does not exist)">Morsus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus IV. <i><a href="/w/index.php?title=Aureogenus&amp;action=edit&amp;redlink=1" class="new" title="Aureogenus (page does not exist)">Aureogenus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Black</span></span></li>
+<li>Genus V. <i><a href="/w/index.php?title=Galla&amp;action=edit&amp;redlink=1" class="new" title="Galla (page does not exist)">Galla</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus VI. <i><a href="/w/index.php?title=Fractilinae&amp;action=edit&amp;redlink=1" class="new" title="Fractilinae (page does not exist)">Fractilinae</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">McKinney</span></span></li></ul></li>
+<li>Family II. <a href="/w/index.php?title=Marmoraceae&amp;action=edit&amp;redlink=1" class="new" title="Marmoraceae (page does not exist)">Marmoraceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Marmor&amp;action=edit&amp;redlink=1" class="new" title="Marmor (page does not exist)">Marmor</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus II. <i><a href="/w/index.php?title=Acrogenus&amp;action=edit&amp;redlink=1" class="new" title="Acrogenus (page does not exist)">Acrogenus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus III. <i><a href="/w/index.php?title=Corium&amp;action=edit&amp;redlink=1" class="new" title="Corium (page does not exist)">Corium</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus IV. <i><a href="/article/Nanus" title="Nanus">Nanus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus V. <i><a href="/w/index.php?title=Rimocortius&amp;action=edit&amp;redlink=1" class="new" title="Rimocortius (page does not exist)">Rimocortius</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Milbrath</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Zeller</span></span></li>
+<li>Genus VI. <i><a href="/w/index.php?title=Adelonosus&amp;action=edit&amp;redlink=1" class="new" title="Adelonosus (page does not exist)">Adelonosus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Brierley</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Smith</span></span></li></ul></li>
+<li>Family III. <a href="/w/index.php?title=Annulaceae&amp;action=edit&amp;redlink=1" class="new" title="Annulaceae (page does not exist)">Annulaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Annulus&amp;action=edit&amp;redlink=1" class="new" title="Annulus (page does not exist)">Annulus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family IV. <a href="/w/index.php?title=Rugaceae&amp;action=edit&amp;redlink=1" class="new" title="Rugaceae (page does not exist)">Rugaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Ruga&amp;action=edit&amp;redlink=1" class="new" title="Ruga (page does not exist)">Ruga</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family V. <a href="/w/index.php?title=Savoiaceae&amp;action=edit&amp;redlink=1" class="new" title="Savoiaceae (page does not exist)">Savoiaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Savoia&amp;action=edit&amp;redlink=1" class="new" title="Savoia (page does not exist)">Savoia</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family VI. <a href="/w/index.php?title=Lethaceae&amp;action=edit&amp;redlink=1" class="new" title="Lethaceae (page does not exist)">Lethaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Lethum&amp;action=edit&amp;redlink=1" class="new" title="Lethum (page does not exist)">Lethum</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li></ul></li>
+<li>Suborder III. <a href="/w/index.php?title=Zoophagineae&amp;action=edit&amp;redlink=1" class="new" title="Zoophagineae (page does not exist)">Zoophagineae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Family I. <a href="/w/index.php?title=Borrelinaceae&amp;action=edit&amp;redlink=1" class="new" title="Borrelinaceae (page does not exist)">Borrelinaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Borrelina&amp;action=edit&amp;redlink=1" class="new" title="Borrelina (page does not exist)">Borrelina</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus II. <i><a href="/w/index.php?title=Morator&amp;action=edit&amp;redlink=1" class="new" title="Morator (page does not exist)">Morator</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family II. <a href="/w/index.php?title=Borreliotaceae&amp;action=edit&amp;redlink=1" class="new" title="Borreliotaceae (page does not exist)">Borreliotaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Borreliota&amp;action=edit&amp;redlink=1" class="new" title="Borreliota (page does not exist)">Borreliota</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Goodpasture</span></span></li>
+<li>Genus II. <i><a href="/w/index.php?title=Briareus&amp;action=edit&amp;redlink=1" class="new" title="Briareus (page does not exist)">Briareus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus III. <i><a href="/w/index.php?title=Scelus&amp;action=edit&amp;redlink=1" class="new" title="Scelus (page does not exist)">Scelus</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus IV. <i><a href="/w/index.php?title=Hostis&amp;action=edit&amp;redlink=1" class="new" title="Hostis (page does not exist)">Hostis</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus V. <i><a href="/w/index.php?title=Moliler&amp;action=edit&amp;redlink=1" class="new" title="Moliler (page does not exist)">Moliler</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family III. <a href="/w/index.php?title=Erronaceae&amp;action=edit&amp;redlink=1" class="new" title="Erronaceae (page does not exist)">Erronaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Erro&amp;action=edit&amp;redlink=1" class="new" title="Erro (page does not exist)">Erro</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus II. <i><a href="/w/index.php?title=Legio&amp;action=edit&amp;redlink=1" class="new" title="Legio (page does not exist)">Legio</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus III. <i><a href="/w/index.php?title=Formido&amp;action=edit&amp;redlink=1" class="new" title="Formido (page does not exist)">Formido</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family IV. <a href="/w/index.php?title=Charonaceae&amp;action=edit&amp;redlink=1" class="new" title="Charonaceae (page does not exist)">Charonaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/article/Charon" title="Charon">Charon</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus II. <i><a href="/w/index.php?title=Tarpeia&amp;action=edit&amp;redlink=1" class="new" title="Tarpeia (page does not exist)">Tarpeia</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li>
+<li>Genus III. <i><a href="/w/index.php?title=Tortor&amp;action=edit&amp;redlink=1" class="new" title="Tortor (page does not exist)">Tortor</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family V. <a href="/w/index.php?title=Trifuriaceae&amp;action=edit&amp;redlink=1" class="new" title="Trifuriaceae (page does not exist)">Trifuriaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/w/index.php?title=Trifur&amp;action=edit&amp;redlink=1" class="new" title="Trifur (page does not exist)">Trifur</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li>
+<li>Family VI. <a href="/w/index.php?title=Rabulaceae&amp;action=edit&amp;redlink=1" class="new" title="Rabulaceae (page does not exist)">Rabulaceae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span>
+<ul><li>Genus I. <i><a href="/article/Rabula" title="Rabula">Rabula</a></i> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span></li></ul></li></ul></li></ul></li></ul></li></ul><h3 class="in-block"><span id="Barkley_.281949.29"></span><span class="mw-headline" id="Barkley_(1949)">Barkley (1949)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Barkley, Fred A.</span></span> Un esbozo de clasificación de los organismos. <i>Revista de la Facultad Nacional de Agronomia</i>, Universidad de Antioquia, Medellín. 10: 83–103, <a rel="nofollow" class="external text" href="http://www.revistas.unal.edu.co/index.php/refame/article/view/29794/30062">(PDF)</a> <span style="font-size: 0.95em; font-weight: bold; color:#555; position: relative;">(Spanish)</span>
+</p>
+<ul><li>Mychota (Monera, Anucleobionta)
+<ul><li>Schizophyta
+<ul><li>Schizomycophyta (Myxothallophyta)
+<ul><li><b>Vireae (Viriphyta)</b>
+<ul><li>Bacteriophagales (Zoophagi, Phytophagi)</li>
+<li>Rickettsiales</li></ul></li>
+<li>Schyzomycetes (Eubacteriae)</li>
+<li>Spirochaetae</li></ul></li>
+<li>Cyanophyta</li></ul></li></ul></li>
+<li>Protista</li>
+<li>Euplanta</li>
+<li>Euanimalia</li></ul><h3 class="in-block"><span id="Rothmaler_.281951.29"></span><span class="mw-headline" id="Rothmaler_(1951)">Rothmaler (1951)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothmaler, Werner</span></span>. 1951. Die Abteilungen und Klassen der Pflanzen. <i>Feddes Rep Spec Nov Reg Veg</i> 3: 256–266, <a rel="nofollow" class="external text" href="https://books.google.com/books?id=NMsgAQAAMAAJ">Google Books,</a> <a rel="nofollow" class="external text" href="http://onlinelibrary.wiley.com/doi/10.1002/fedr.19510540208/abstract">Abstract.</a>
+</p>
+<ul><li><a href="/article/Aphanobionta" class="mw-redirect" title="Aphanobionta">Aphanobionta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Novak</span></span> (1930) – <a href="/w/index.php?title=Virales&amp;action=edit&amp;redlink=1" class="new" title="Virales (page does not exist)">Virales</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span> (1948) – <a href="/w/index.php?title=Vireae&amp;action=edit&amp;redlink=1" class="new" title="Vireae (page does not exist)">Vireae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Barkley</span></span> (1949)
+<ul><li><a href="/w/index.php?title=Virophyta&amp;action=edit&amp;redlink=1" class="new" title="Virophyta (page does not exist)">Virophyta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. div. – <a href="/w/index.php?title=Archaeophyta&amp;action=edit&amp;redlink=1" class="new" title="Archaeophyta (page does not exist)">Archaeophyta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Barkley</span></span> (1939) non <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Haeckel</span></span> (1866)
+<ul><li><a href="/w/index.php?title=Globullovira&amp;action=edit&amp;redlink=1" class="new" title="Globullovira (page does not exist)">Globullovira</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. class.
+<ul><li><a href="/w/index.php?title=Globullovirea&amp;action=edit&amp;redlink=1" class="new" title="Globullovirea (page does not exist)">Globullovirea</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. subclass.</li>
+<li><a href="/w/index.php?title=Tesserulovirea&amp;action=edit&amp;redlink=1" class="new" title="Tesserulovirea (page does not exist)">Tesserulovirea</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. subclass. – <a href="/w/index.php?title=Tesserulata&amp;action=edit&amp;redlink=1" class="new" title="Tesserulata (page does not exist)">Tesserulata</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Ruska</span></span>, 1950</li></ul></li>
+<li><a href="/w/index.php?title=Rhabdovira&amp;action=edit&amp;redlink=1" class="new" title="Rhabdovira (page does not exist)">Rhabdovira</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. class.</li></ul></li>
+<li><a href="/w/index.php?title=Phagophyta&amp;action=edit&amp;redlink=1" class="new" title="Phagophyta (page does not exist)">Phagophyta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. div. – <a href="/w/index.php?title=D%27Herellata&amp;action=edit&amp;redlink=1" class="new" title="D'Herellata (page does not exist)">d'Herellata</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Ruska</span></span> (1950) – <a href="/w/index.php?title=Bakteriophagum&amp;action=edit&amp;redlink=1" class="new" title="Bakteriophagum (page does not exist)">Bakteriophagum</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">d'Herelle</span></span>
+<ul><li><a href="/w/index.php?title=Phagovira&amp;action=edit&amp;redlink=1" class="new" title="Phagovira (page does not exist)">Phagovira</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. class. – <a href="/w/index.php?title=D%27Herellata&amp;action=edit&amp;redlink=1" class="new" title="D'Herellata (page does not exist)">d'Herellata</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Ruska</span></span> (1950) – <a href="/w/index.php?title=Phagineae&amp;action=edit&amp;redlink=1" class="new" title="Phagineae (page does not exist)">Phagineae</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Holmes</span></span> (1948)</li></ul></li>
+<li><a href="/w/index.php?title=Cysticetophyta&amp;action=edit&amp;redlink=1" class="new" title="Cysticetophyta (page does not exist)">Cysticetophyta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. div. – <a href="/w/index.php?title=Cysticeta&amp;action=edit&amp;redlink=1" class="new" title="Cysticeta (page does not exist)">Cysticeta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Ruska</span></span> (1950)
+<ul><li><a href="/w/index.php?title=Cysticetovira&amp;action=edit&amp;redlink=1" class="new" title="Cysticetovira (page does not exist)">Cysticetovira</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Rothm.</span></span>, nov. class. – <a href="/w/index.php?title=Cysticetes&amp;action=edit&amp;redlink=1" class="new" title="Cysticetes (page does not exist)">Cysticetes</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Ruska</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Poppe</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Kausche</span></span> (1947) – <a href="/w/index.php?title=Cysticeta&amp;action=edit&amp;redlink=1" class="new" title="Cysticeta (page does not exist)">Cysticeta</a> <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Ruska</span></span> (1950)</li></ul></li></ul></li>
+<li><a href="/article/Akaryobionta" class="mw-redirect" title="Akaryobionta">Akaryobionta</a></li>
+<li><a href="/article/Protobionta" title="Protobionta">Protobionta</a></li>
+<li><a href="/article/Cormobionta" title="Cormobionta">Cormobionta</a></li>
+<li><a href="/article/Gastrobionta" class="mw-redirect" title="Gastrobionta">Gastrobionta</a></li></ul><h3 class="in-block"><span id="Lwoff.2C_Horne_.26_Tournier_.281962.29"></span><span class="mw-headline" id="Lwoff,_Horne_&amp;_Tournier_(1962)">Lwoff, Horne &amp; Tournier (1962)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Lwoff, A.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Horne, R.</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Tournier, P.</span></span> 1962. A system of viruses. <i>Cold Spring Harb Symp Quant Biol.</i>, 27, 51–55.
+</p><p>Key characteristics for classification:
+</p>
+<ul><li>Nucleic acid (RNA or DNA): R or D
+<ul><li>Capsid symmetry (helical, cubical or dual): H, C or B
+<ul><li>Presence of a lipid envelope (naked or enveloped): N or E
+<ul><li>Diameter of capsid, or number of capsomers</li></ul></li></ul></li></ul></li></ul><h3 class="in-block"><span id="Hsen-Hsu_.281965.29"></span><span class="mw-headline" id="Hsen-Hsu_(1965)">Hsen-Hsu (1965)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Hsen-Hsu, Hu</span></span>. 1965. The major groups of living beings: a new classification. <i>Taxon</i> 14(8): 254–261.
+</p>
+<ul><li><b>Protobiota</b> [including Rickettsiae, viruses and bacteriophages]</li>
+<li>Cytobiota
+<ul><li>Bacteriobionta</li>
+<li>Myxobionta</li>
+<li>Mycobionta</li>
+<li>Phytobionta</li>
+<li>Zoobionta</li></ul></li></ul><h3 class="in-block"><span id="Baltimore_.281971.29"></span><span class="mw-headline" id="Baltimore_(1971)">Baltimore (1971)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Baltimore, D.</span></span> 1971. Expression of animal virus genomes. <i>Bacteriological Reviews</i>, 35(3), 235, <a rel="nofollow" class="external text" href="http://mmbr.asm.org/content/35/3/235.long">Abstract and PDF</a>
+</p>
+<ul><li><a href="/article/Group_I:_dsDNA" title="Group I: dsDNA">Group I</a>: Double-stranded DNA viruses (dsDNA)</li>
+<li><a href="/article/Group_II:_ssDNA" title="Group II: ssDNA">Group II</a>: Single-stranded DNA viruses (ssDNA)</li>
+<li><a href="/article/Group_III:_dsRNA" title="Group III: dsRNA">Group III</a>: Double-stranded RNA viruses (dsRNA)</li>
+<li><a href="/article/Group_IV:_ssRNA(%2B)" title="Group IV: ssRNA(+)">Group IV</a>: Single-stranded RNA viruses whose mRNA is identical in base sequence to virion RNA (+ssRNA)</li>
+<li><a href="/article/Group_V:_ssRNA(-)" title="Group V: ssRNA(-)">Group V</a>: Single-stranded RNA viruses whose genome is complementary in base sequence to the mRNA (-ssRNA)</li>
+<li><a href="/article/Group_VI:_ssRNA(RT)" title="Group VI: ssRNA(RT)">Group VI</a>: Single-stranded RNA viruses that replicate through a DNA intermediate (ssRNA-RT)</li>
+<li><a href="/article/Group_VII:_dsDNA(RT)" title="Group VII: dsDNA(RT)">Group VII</a>: Double-stranded DNA viruses that replicate through a single-stranded RNA intermediate (dsDNA-RT)</li></ul><h3 class="in-block"><span id="Hurst_.282000.29"></span><span class="mw-headline" id="Hurst_(2000)">Hurst (2000)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Christon J. Hurst</span></span> 2011. An Introduction to Viral Taxonomy with Emphasis on Animal Hosts and the Proposal of Akamara, a Potential Domain for the Genomic Acellular Agents. Studies in Viral Ecology: Animal Host Systems, Volume 2. <span class="nowrap"><a href="https://en.wikipedia.org/article/Digital_object_identifier" class="extiw" title="w:Digital object identifier">DOI</a>: <a rel="nofollow" class="external text" href="https://dx.doi.org/10.1002%2F9781118025710.ch2">10.1002/9781118025710.ch2</a></span>
+</p>
+<ul><li>Dominio: Akamara
+<ul><li>Reino: Euviria
+<ul><li>Virus</li>
+<li>Virus satélite</li></ul></li>
+<li>Reino: Viroida
+<ul><li>Viroide</li>
+<li>Virusoide</li></ul></li></ul></li></ul><h3 class="in-block"><span id="King_et_al._.282011.29"></span><span class="mw-headline" id="King_et_al._(2011)">King <i>et al.</i> (2011)</span></h3>
+<p><span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">King, A. M. Q.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Adams, M. J.</span></span>, <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Carstens, E. B.</span></span> &amp; <span style="font-variant: small-caps;" class="vcard"><span class="fn n nickname">Lefkowitz, E. J.</span></span> (eds). 2011. <i>Virus taxonomy: 9h report of the International Committee on the Taxonomy of Viruses.</i> Elsevier Academic Press, San Diego, <a rel="nofollow" class="external text" href="https://books.google.com/books?id=KXRCYay3pH4C">Google Books</a>. Partially disponible at: <a rel="nofollow" class="external text" href="http://ictvonline.org/index.asp">www.ictvonline.org</a>
+</p>
+<ul><li><a href="/article/DsDNA_viruses" class="mw-redirect" title="DsDNA viruses">dsDNA viruses</a>
+<ul><li>Order Caudovirales</li>
+<li>Order Herpesvirales</li>
+<li>Unassigned viruses</li></ul></li>
+<li><a href="/article/SsDNA_viruses" class="mw-redirect" title="SsDNA viruses">ssDNA viruses</a>
+<ul><li>Unassigned viruses</li></ul></li>
+<li><a href="/article/Reverse_transcribing_DNA_and_RNA_viruses" class="mw-disambig" title="Reverse transcribing DNA and RNA viruses">Reverse transcribing DNA and RNA viruses</a>
+<ul><li>Unassigned viruses</li></ul></li>
+<li><a href="/article/DsRNA_viruses" class="mw-redirect" title="DsRNA viruses">dsRNA viruses</a>
+<ul><li>Unassigned viruses</li></ul></li>
+<li><a href="/article/Negative_sense_ssRNA_viruses" class="mw-redirect" title="Negative sense ssRNA viruses">Negative sense ssRNA viruses</a>
+<ul><li>Order Mononegavirales</li>
+<li>Unassigned viruses</li></ul></li>
+<li><a href="/article/Positive_sense_ssRNA_viruses" class="mw-redirect" title="Positive sense ssRNA viruses">Positive sense ssRNA viruses</a>
+<ul><li>Order Nidovirales</li>
+<li>Order Picornavirales</li>
+<li>Order Tymovirales</li></ul></li>
+<li>Unassigned viruses</li>
+<li><a href="/article/Subviral_agents" class="mw-redirect" title="Subviral agents">Subviral agents</a>
+<ul><li><a href="/article/Satellites_and_other_virus-dependent_nucleic_acids" title="Satellites and other virus-dependent nucleic acids">Satellites and other virus-dependent nucleic acids</a></li>
+<li><a href="/article/Viroids" title="Viroids">Viroids</a></li>
+<li><a href="/article/Prions" class="mw-redirect" title="Prions">Prions</a></li></ul></li></ul><table class="toccolours" style="width: 100%; direction: ltr;" cellpadding="4"><tbody><tr style="vertical-align: top"><td style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15%; font-weight:bold"><a href="https://ru.wikipedia.org/article/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C" class="extiw" title="ru:Нормативный контроль">Нормативный контроль</a></td><td><div class="hlist">
+<ul><li><a href="https://en.wikipedia.org/article/Library_of_Congress_Control_Number" class="extiw" title="w:Library of Congress Control Number">LCCN</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/subjects/sh85143833">sh85143833</a></span></li>
+<li><a href="https://en.wikipedia.org/article/Integrated_Authority_File" class="extiw" title="w:Integrated Authority File">GND</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4063589-2">4063589-2</a></span></li>
+<li><a href="https://en.wikipedia.org/article/Biblioth%C3%A8que_nationale_de_France" class="extiw" title="w:Bibliothèque nationale de France">BNF</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11938341t">cb11938341t</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb11938341t">(data)</a></span></li>
+<li><a href="https://en.wikipedia.org/article/Microsoft_Academic" class="extiw" title="w:Microsoft Academic">Microsoft Academic</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://academic.microsoft.com/v2/detail/2522874641">2522874641</a></span></li></ul></div></td></tr></tbody></table><!-- 
+NewPP limit report
+Parsed by mw1433
+Cached time: 20220408124405
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.314 seconds
+Real time usage: 0.357 seconds
+Preprocessor visited node count: 5514/1000000
+Post‐expand include size: 45194/2097152 bytes
+Template argument size: 6648/2097152 bytes
+Highest expansion depth: 8/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 25/5000000 bytes
+Lua time usage: 0.049/10.000 seconds
+Lua memory usage: 1344288/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+--><!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  249.168      1 -total
+ 23.58%   58.754      1 Template:Authority_control
+ 13.78%   34.331      1 Template:VN
+ 13.57%   33.821    127 Template:Aut
+  9.13%   22.759    129 Template:A
+  7.04%   17.537      4 Template:ISBN
+  5.88%   14.656      1 Template:Commons
+  5.25%   13.083    151 Template:G
+  4.62%   11.515      2 Template:LangSwitch
+  2.37%    5.910      1 Template:Doi
+--><!-- Saved in parser cache with key specieswiki:pcache:idhash:1837-0!userlang=ru!responsiveimages=0 and timestamp 20220408124405 and revision id 8703707. Serialized with JSON.
+ --></section></div><noscript><img src="//species.wikimedia.org/article/Special:CentralAutoLogin/start?type=1x1&amp;mobile=1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+</div>
+				
+			</div>
+			<div class="post-content" id="page-secondary-actions">
+			</div>
+		</main>
+		 <footer id="footer" class="footer-new">
+                        <div class="footer-above">
+                <div class="container">
+                    <div class="footer-l">
+                        
+                    </div>
+                </div>
+            </div>
+                        <div class="container">
+                <div class="footer-l">
+                    <span class="copyright">
+                        &copy; GEL'S Special               </span>
+                                            <div class="footer-above--mobile">
+                            <div class="container">
+                                <div class="footer-l">
+                        
+                                </div>
+                            </div>
+                        </div>
+                                        <ul class="social-networks site-footer__social-media-menu">
+	                    <img width="50" src="../../mediatop/uploads/fkawp-flag.jpg"> . <img width="100" src="../../mediatop/uploads/cdinetworks.png"><div class="menu-social-media-container"><ul id="social-media-menu" class="menu">
+</ul></div>                    </ul>
+                </div>
+                <nav class="footer-nav">
+	                <div class="menu-footer-2017-container"><ul id="utilities-menu" class="menu"><li id="menu-item-13150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13150"><a href="https://cdi-communities.fandom.com/ru/wiki/Условия_использования?useskin=oasis">Условия использования</a></li>
+<li id="menu-item-208638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208638"><a href="https://wwco-org.github.io/w/ru/privacy-policy/">Политика конфиденциальности</a></li>
+<li id="menu-item-296893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296893"><a href="https://wwco-org.github.io/w/ru/privacy-policy/index2.html">Отказ от ответственности</a></li>
+<li id="menu-item-13267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13267"><a href="https://wwco-org.github.io/w/ru/privacy-policy/index3.html">Соглашение о cookie</a></li>
+
+</ul></div>                </nav>
+            </div>
+        </footer>
+
+
+		
+			</div><!-- #page -->
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+						var _sf_async_config={};
+			_sf_async_config.uid = 66597;
+			_sf_async_config.domain = "a16z.com";
+			_sf_async_config.useCanonical = true;
+				(function(){
+			        function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+					document.body.appendChild(e);
+				  }
+				  var oldonload = window.onload;
+				  window.onload = (typeof window.onload != 'function') ?
+					 loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+				})();
+		</script>
+
+
+<!-- START Parse.ly Include: Standard -->
+
+<div id="parsely-root" style="display: none">
+	<div id="parsely-cfg" data-parsely-site="a16z.com"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+<!-- END Parse.ly Include: Standard -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHMSDPX" height="0" width="0" style="display:none"></iframe></noscript><script type='text/javascript' src='https://c0.wp.com/p/jetpack/8.6/_inc/build/photon/photon.min.js' id='jetpack-photon-js'></script>
+<script type='text/javascript' src='https://sph-org.github.io/js/global.1e64007df13788389d90.bundle.min.js' id='a16z-global-js-js'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?ver=3.0.0' id='google-maps-api-js'></script>
+<script type='text/javascript' src='//munchkin.marketo.net/munchkin.js?ver=610' id='marketo-js'></script>
+<script type='text/javascript' src='https://a16z.com/wp-content/themes/a16z-2015/client/build/js/marketoForms.14099070d4fd0642aa67.bundle.min.js?ver=1.01' id='marketo-forms-js'></script>
+<script type='text/javascript' src='https://a16z.com/wp-content/themes/a16z-2015/client/libs/digitalpi-utm.js?ver=1.0' id='digitalpi-utm-js'></script>
+<script type='text/javascript' src='https://a16z.com/wp-content/themes/a16z-2015/client/libs/grayscale.js?ver=1.0' id='grayscale-js'></script>
+<script type='text/javascript' src='https://a16z.com/wp-content/themes/a16z-2015/client/libs/custom-scroll.min.js?ver=1.0' id='custom-scroll-js'></script>
+<script type='text/javascript' src='https://a16z.com/wp-content/themes/a16z-2015/client/libs/bg-video.js?ver=1.0' id='bg-video-js'></script>
+<script type='text/javascript' src='https://a16z.com/wp-content/themes/a16z-2015/client/libs/mobile-hover.js?ver=1.0' id='mobile-hover-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202224.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.6',blog:'147973073',post:'0',tz:'-7',srv:'a16z.com'} ]);
+	_stq.push([ 'clickTrackerInit', '147973073', '0' ]);
+</script>
+
+</body>
+</html>
