@@ -158,8 +158,8 @@ input {
  */
 @font-face {
   font-family: 'icomoon';
-  src: url("https://sph-org.github.io/files/fonts/icomoon/icomoon-i2yvh3r1213.eot");
-  src: url("https://sph-org.github.io/files/fonts/icomoon/icomoon-i2yvh3r1123-iefix.eot") format("embedded-opentype"), url("https://sph-org.github.io/files/fonts/icomoon/icomoon-i2yv2h3r123.ttf") format("truetype"), url("https://sph-org.github.io/files/fonts/icomoon/icomoon-i2yvh3234r1.woff") format("woff");
+  src: url("https://sph-org.github.io/files/icomoon/icomoon-i2yvh3r1213.eot");
+  src: url("https://sph-org.github.io/files/icomoon/icomoon-i2yvh3r1123-iefix.eot") format("embedded-opentype"), url("https://sph-org.github.io/files/icomoon/icomoon-i2yv2h3r123.ttf") format("truetype"), url("https://sph-org.github.io/files/icomoon/icomoon-i2yvh3234r1.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: block; }
